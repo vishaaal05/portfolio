@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&family=Oswald&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+:root {
+    /* background-color: black; */
+    font-family: 'Inter', sans-serif;
+}
