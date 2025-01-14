@@ -1,5 +1,6 @@
 import { MainHeader } from "./components/MainHeader";
 import { Navbar } from "./components/Navbar";
+import Technologies from "./components/Technologies";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
   <div className="relative z-10">
     <Navbar />
     <MainHeader />
+    <Technologies/>
   </div>
 </div>
 
