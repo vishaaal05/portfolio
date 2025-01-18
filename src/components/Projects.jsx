@@ -5,11 +5,11 @@ const Projects = () => {
     <h2  className="text-center text-4xl">Projects</h2>
     <div className="mt-10">
         {PROJECTS.map((project, index) => (
-            <div key={index} className="mb-8 flex  flex-col mx-auto m-5 md:flex-row md:w-1/2">
-                <div className="flex justify-center ">
+            <div key={index} className="mb-8 flex  flex-col mx-auto m-5 md:flex-row md:w-3/4">
+                <div className="flex px-8 pb-3">
                     <img src={project.image} alt="" />
                 </div>  
-                <div className="ml-2 mt-6">
+                <div className="px-8">
                     <h1 className="font-semibold text-xl mb-3">{project.title}</h1>
                     <p className="text-stone-400 mb-4 ">{project.description}</p>
                     <p className="mt-3">{project.technologies.map((tech,index)=>(
@@ -23,3 +23,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
