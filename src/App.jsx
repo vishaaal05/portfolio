@@ -1,5 +1,6 @@
 import { MainHeader } from "./components/MainHeader";
 import { Navbar } from "./components/Navbar";
+import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Navbar />
     <MainHeader />
     <Technologies/>
+    <Projects/>
   </div>
 </div>
 
