@@ -67,7 +67,7 @@ export const PROJECTS = [
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
-];
+];  
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
