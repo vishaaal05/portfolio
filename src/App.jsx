@@ -1,3 +1,4 @@
+import Experience from "./components/Experience";
 import { MainHeader } from "./components/MainHeader";
 import { Navbar } from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -20,6 +21,7 @@ function App() {
     <MainHeader />
     <Technologies/>
     <Projects/>
+    <Experience/>
   </div>
 </div>
 
