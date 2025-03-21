@@ -1,4 +1,3 @@
-import React from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BiLogoMongodb } from "react-icons/bi";
@@ -27,26 +26,26 @@ const Technologies = () => {
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
       transition={{ duration: 0.7, delay: 0.2 }}
       className="flex flex-wrap justify-center items-center mt-14 gap-10">
-        <div>
-            <RiReactjsLine className="text-7xl text-cyan-400"/>
+        <div className="transform transition-transform duration-300 hover:scale-125">
+            <RiReactjsLine className="text-8xl text-cyan-400"/>
         </div>
-        <div>
-        <BiLogoMongodb className="text-7xl text-green-600" />
+        <div className="transform transition-transform duration-300 hover:scale-125">
+            <BiLogoMongodb className="text-8xl text-green-600" />
         </div>
-        <div>
-        <SiMysql className="text-7xl text-cyan-500"/>
+        <div className="transform transition-transform duration-300 hover:scale-125">
+            <SiMysql className="text-8xl text-cyan-500"/>
         </div>
-        <div>
-        <IoLogoJavascript  className="text-7xl text-yellow-400"/>
+        <div className="transform transition-transform duration-300 hover:scale-125">
+            <IoLogoJavascript  className="text-8xl text-yellow-400"/>
         </div>
-        <div>
-            <TbBrandNextjs className="text-7xl"/>
+        <div className="transform transition-transform duration-300 hover:scale-125">
+            <TbBrandNextjs className="text-8xl"/>
         </div>
-        <div>
-        <RiJavaFill   className="text-7xl text-yellow-400"/>
+        <div className="transform transition-transform duration-300 hover:scale-125">
+            <RiJavaFill   className="text-8xl text-yellow-400"/>
         </div>
-        <div>
-        <SiSpringboot    className="text-7xl text-green-500"/>
+        <div className="transform transition-transform duration-300 hover:scale-125">
+            <SiSpringboot    className="text-8xl text-green-500"/>
         </div>
     </motion.div>
   </div>;
