@@ -46,7 +46,7 @@ export const Navbar = () => {
         className="flex items-center"
       >
         <span className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-          VG
+          <img src="fevicon.png" className="size-20" alt="" />
         </span>
       </motion.div>
 
