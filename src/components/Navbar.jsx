@@ -36,7 +36,7 @@ export const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className="sticky top-0 z-50 flex justify-between px-5 md:px-10 h-16 items-center "
+      className="sticky top-0 z-50 flex justify-between px-5 md:px-10 h-16 items-center bg-gray-900/80 backdrop-blur-md shadow-lg"
     >
       {/* Logo */}
       <motion.div
@@ -46,7 +46,7 @@ export const Navbar = () => {
         className="flex items-center"
       >
         <span className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-          <img src="fevicon.png" className="size-20" alt="" />
+          <img src="fevicon.png" className="size-20" alt="Logo" />
         </span>
       </motion.div>
 

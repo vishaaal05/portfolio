@@ -9,7 +9,7 @@ import Technologies from "./components/Technologies";
 
 function App() {
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 overflow-hidden">
+    <div className="relative min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800">
       {/* Background overlay */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.05),transparent)] pointer-events-none"></div>
   {/* Grid Background */}
