@@ -143,7 +143,13 @@ const Projects = () => {
               alt={selectedProject.title}
               className="w-full h-48 object-cover rounded-lg mb-4"
             />
-            <p className="text-gray-300 mb-4">{selectedProject.details}</p>
+            {/* Render details with preserved line breaks */}
+            <p
+              className="text-gray-300 mb-4 whitespace-pre-wrap"
+              style={{ lineHeight: "1.6" }}
+            >
+              {selectedProject.details}
+            </p>
             <div className="flex flex-wrap gap-2 mb-6">
               {selectedProject.technologies.map((tech, techIndex) => (
                 <span

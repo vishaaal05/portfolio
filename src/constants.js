@@ -6,18 +6,12 @@ export const PROJECTS = [
       "I built SuprNav, a powerful navigation solution designed to enhance user experience and drive higher conversions.",
     image: "suprnav.png",
     technologies: ["React", "Tailwind CSS", "Magic UI"],
-    details: [
-      "🔹 Key Features:",
-      "✅ Built with React for dynamic and high-performance rendering.",
-      " ✅ Tailwind CSS & Magic UI for a sleek, responsive, and modern design.",
-      "✅ Optimized navigation to improve user experience and conversion rates.",
-      "✅ Enhanced performance for fast and smooth interactions.",
-    ],
-    // details: `🔹 Key Features:\n
-    //     ✅ Built with React for dynamic and high-performance rendering.\n
-    //     ✅ Tailwind CSS & Magic UI for a sleek, responsive, and modern design.\n
-    //     ✅ Optimized navigation to improve user experience and conversion rates.\n
-    //     ✅ Enhanced performance for fast and smooth interactions.`,
+
+    details: `🔹 Key Features:
+✅ Built with React for dynamic and high-performance rendering.
+✅ Tailwind CSS & Magic UI for a sleek, responsive, and modern design.
+✅ Optimized navigation to improve user experience and conversion rates.
+✅ Enhanced performance for fast and smooth interactions.`,
     githubLink: "https://github.com/vishaaal05/suprnav",
     liveLink: "https://suprnav.com/",
   },
