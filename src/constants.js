@@ -66,7 +66,7 @@ export const EXPERIENCES = [
     description:
       "Developed and published full-stack web applications and shopify plugins with a focus on real-time features and performance.",
     responsibilities: [
-      "Built and deployed two websites, one live at suprnav.com.",
+      "Built and deployed applications",
       "Developed Shopify plugin apps using Remix, Nhost, GraphQL, and Hasura.",
       "Designed and implemented a UI for store owners to customize the app according to their theme.",
       "Integrated recurring payment functionality for seamless billing.",
@@ -84,3 +84,16 @@ export const EXPERIENCES = [
   },
   // Add more experiences here if needed
 ];
+
+export const EDUCATION = [
+    {
+      year: "2024 - 2026",
+      course: "Master of Computer Applications",
+      college: "ABES Engineering College",
+    },
+    {
+        year: "2020 - 2023",
+        course: "Bachelor of Science in Computer Science",
+        college: "University of Delhi",
+      },
+  ];
