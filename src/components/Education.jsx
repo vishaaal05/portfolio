@@ -31,7 +31,7 @@ const Education = () => {
         animate={isInView ? "visible" : "hidden"}
         className="my-20 text-center text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent"
       >
-        Experience
+        Education
       </motion.h2>
 
       <div className="flex flex-col gap-8 w-full max-w-4xl mx-auto px-5">
