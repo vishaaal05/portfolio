@@ -36,7 +36,7 @@ export const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className="sticky top-0 z-50 flex justify-between px-5 md:px-10 h-16 items-center  bg-gradient-to-br from-gray-900 via-black to-gray-800 "
+      className="sticky top-0 z-50 flex justify-between px-5 md:px-10 h-16 items-center "
     >
       {/* Logo */}
       <motion.div
