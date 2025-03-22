@@ -101,9 +101,9 @@ export const MainHeader = () => {
             rel="noopener noreferrer"
             variants={buttonVariants}
             whileHover="hover"
-            className="inline-block bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-xl p-4 text-sm font-semibold hover:from-blue-600 hover:to-purple-600 transition-all duration-300"
+            className="inline-block bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-xl p-4 text-sm  hover:from-blue-600 hover:to-purple-600 transition-all duration-300"
           >
-            Download CV
+            View Resume
           </motion.a>
         </motion.div>
       </motion.div>
