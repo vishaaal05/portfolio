@@ -96,7 +96,7 @@ export const MainHeader = () => {
           className="mt-10"
         >
           <motion.a
-            href="/resume.pdf"
+            href="/Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             variants={buttonVariants}
