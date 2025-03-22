@@ -34,7 +34,7 @@ const buttonVariants = {
 
 export const MainHeader = () => {
   return (
-    <div className="relative min-h-screen flex flex-col md:flex-row justify-between items-center py-16 md:py-36 ">
+    <div className="relative min-h-screen flex flex-col md:flex-row justify-between items-center py-16 md:py-20 ">
       {/* Background decorative element */}
       {/* <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.05),transparent)] pointer-events-none"></div> */}
 
@@ -66,7 +66,7 @@ export const MainHeader = () => {
         <motion.h1
           custom={0}
           variants={textVariants}
-          className="text-4xl md:text-6xl py-2 md:py-1 tracking-tighter bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent font-bold"
+          className="text-4xl md:text-5xl py-2 md:py-1 tracking-tighter bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent font-bold"
         >
           Vishal Kumar Gupta
         </motion.h1>
