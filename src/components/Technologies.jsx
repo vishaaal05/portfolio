@@ -50,7 +50,7 @@ const Technologies = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <div className="py-24 relative" ref={ref}>
+    <div className=" relative" ref={ref}>
       {/* Section Title */}
       <motion.h2
         variants={titleVariants}

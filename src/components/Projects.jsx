@@ -41,7 +41,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="py-24" ref={ref}>
+    <div className="pt-20" ref={ref}>
       {/* Section Title */}
       <motion.h2
         variants={titleVariants}
