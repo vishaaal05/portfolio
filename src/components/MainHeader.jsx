@@ -34,9 +34,9 @@ const buttonVariants = {
 
 export const MainHeader = () => {
   return (
-    <div className="relative min-h-screen flex flex-col md:flex-row justify-between items-center py-16 md:py-36 bg-gradient-to-br from-gray-900 via-black to-gray-800 overflow-hidden">
+    <div className="relative min-h-screen flex flex-col md:flex-row justify-between items-center py-16 md:py-36 ">
       {/* Background decorative element */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.05),transparent)] pointer-events-none"></div>
+      {/* <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.05),transparent)] pointer-events-none"></div> */}
 
       {/* Profile Image Section */}
       <motion.div
