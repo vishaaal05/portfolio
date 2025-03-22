@@ -47,9 +47,9 @@ export const MainHeader = () => {
       >
         <div className="relative">
           <img
-            src="profile-removebg-preview.jpg"
+            src="profile-bg.jpg"
             alt="Vishal Kumar Gupta - Profile"
-            className="rounded-3xl max-w-full md:max-w-80 hover:scale-105 transition-transform duration-300"
+            className="rounded-full max-w-full md:max-w-80 hover:scale-105 transition-transform duration-300"
           />
           {/* Glow effect around the image */}
           <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-blue-500/20 to-purple-500/20 blur-xl -z-10 animate-pulse"></div>
