@@ -97,3 +97,15 @@ export const EDUCATION = [
         college: "University of Delhi",
       },
   ];
+
+  export const CONTACT = {
+    email: "vishalkgupta34@gmail.com",
+    phoneNo: "+91 8882804354",
+    address: "Ghaziabad, UP, India",
+    socialLinks: {
+      linkedin: "https://www.linkedin.com/in/vishaaal05/",
+      github: "https://github.com/vishaaal05",
+      instagram: "https://instagram.com/vishaaal05",
+      twitter: "https://x.com/Vishaaal05",
+    },
+  };
