@@ -34,7 +34,7 @@ const buttonVariants = {
 };
 
 export const MainHeader = () => {
-  const roles = ["Full Stack Developer", "Freelancer"];
+  const roles = ["Full Stack Developer", "A Freelancer"];
   const [roleIndex, setRoleIndex] = useState(0);
 
   // Auto-switch roles every 3 seconds
@@ -100,7 +100,7 @@ export const MainHeader = () => {
           variants={textVariants}
           className="leading-7 text-gray-200 max-w-lg"
         >
-          I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.
+          I am a passionate full-stack developer and freelancer, dedicated to building scalable and high-performance web applications. With expertise in front-end technologies like React and Next.js, and back-end solutions using Node.js, MySQL, PostgreSQL, and MongoDB, I craft tailored digital experiences for businesses and individuals. Whether developing dynamic web apps or providing custom solutions, my goal is to deliver seamless, innovative, and user-centric products that drive growth and success.
         </motion.p>
 
         {/* Download CV Button */}
