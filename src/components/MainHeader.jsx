@@ -1,4 +1,5 @@
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import { useState, useEffect } from "react";
 
 // Animation variants for staggered text
 const textVariants = {
@@ -6,24 +7,24 @@ const textVariants = {
   visible: (i) => ({
     opacity: 1,
     y: 0,
-    transition: {
-      delay: i * 0.2, // Staggered delay for each text element
-      duration: 0.5,
-    },
+    transition: { delay: i * 0.2, duration: 0.5 },
   }),
 };
 
-// Animation variants for the profile image
-const imageVariants = {
-  hidden: { opacity: 0, scale: 0.8 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    transition: { duration: 0.6, ease: "easeOut" },
-  },
+// Swapping text animation
+const roleVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+  exit: { opacity: 0, y: -20, transition: { duration: 0.6 } },
 };
 
-// Animation variants for the button
+// Animation for profile image
+const imageVariants = {
+  hidden: { opacity: 0, scale: 0.8 },
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.6, ease: "easeOut" } },
+};
+
+// Animation for the button
 const buttonVariants = {
   hover: {
     scale: 1.05,
@@ -33,11 +34,20 @@ const buttonVariants = {
 };
 
 export const MainHeader = () => {
-  return (
-    <div className="relative min-h-screen flex flex-col md:flex-row justify-between items-center py-16 md:py-20 ">
-      {/* Background decorative element */}
-      {/* <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.05),transparent)] pointer-events-none"></div> */}
+  const roles = ["Full Stack Developer", "Freelancer"];
+  const [roleIndex, setRoleIndex] = useState(0);
 
+  // Auto-switch roles every 3 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setRoleIndex((prevIndex) => (prevIndex + 1) % roles.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="relative min-h-screen flex flex-col md:flex-row justify-between items-center py-16 md:py-20">
+      
       {/* Profile Image Section */}
       <motion.div
         variants={imageVariants}
@@ -51,7 +61,6 @@ export const MainHeader = () => {
             alt="Vishal Kumar Gupta - Profile"
             className="rounded-full max-w-full md:max-w-80 hover:scale-105 transition-transform duration-300"
           />
-          {/* Glow effect around the image */}
           <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-blue-500/20 to-purple-500/20 blur-xl -z-10 animate-pulse"></div>
         </div>
       </motion.div>
@@ -71,14 +80,19 @@ export const MainHeader = () => {
           Vishal Kumar Gupta
         </motion.h1>
 
-        {/* Job Title */}
-        <motion.h3
-          custom={1}
-          variants={textVariants}
-          className="text-xl md:text-3xl py-2 md:py-7 tracking-tight text-gray-300"
-        >
-          Full Stack Developer
-        </motion.h3>
+        {/* Job Title with Swapping Effect */}
+        <AnimatePresence mode="wait">
+          <motion.h3
+            key={roleIndex} // Re-mounts on change
+            variants={roleVariants}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            className="text-xl md:text-3xl py-2 md:py-7 tracking-tight text-gray-300"
+          >
+            {roles[roleIndex]}
+          </motion.h3>
+        </AnimatePresence>
 
         {/* Description */}
         <motion.p
@@ -90,18 +104,14 @@ export const MainHeader = () => {
         </motion.p>
 
         {/* Download CV Button */}
-        <motion.div
-          custom={3}
-          variants={textVariants}
-          className="mt-10"
-        >
+        <motion.div custom={3} variants={textVariants} className="mt-10">
           <motion.a
             href="/Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             variants={buttonVariants}
             whileHover="hover"
-            className="inline-block bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-xl p-4 text-sm  hover:from-blue-600 hover:to-purple-600 transition-all duration-300"
+            className="inline-block bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-xl p-4 text-sm hover:from-blue-600 hover:to-purple-600 transition-all duration-300"
           >
             View Resume
           </motion.a>
