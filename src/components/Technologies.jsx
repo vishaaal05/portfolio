@@ -53,7 +53,7 @@ const Technologies = () => {
     >
       {/* Section Title */}
       <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-14">
-        Technologies
+        Skills
       </h2>
 
       {/* Tech Grid */}
