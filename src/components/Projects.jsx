@@ -83,7 +83,9 @@ const Projects = () => {
               <h3 className="text-xl font-semibold text-white mb-2">
                 {project.title}
               </h3>
-              <p className="text-gray-400 text-sm mb-4">{project.description}</p>
+              <p className="text-gray-400 text-sm mb-4">
+                {project.description}
+              </p>
               <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tech, techIndex) => (
                   <span
@@ -106,11 +108,11 @@ const Projects = () => {
           initial="hidden"
           animate="visible"
           exit="exit"
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4"
           onClick={closeModal}
         >
           <motion.div
-            className="bg-gray-900 rounded-2xl p-8 max-w-lg w-full mx-4 relative"
+            className="bg-gray-900 rounded-2xl p-6 md:p-8 max-w-2xl w-full mx-auto relative max-h-[80vh] overflow-auto"
             onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the modal
           >
             {/* Close Button */}
@@ -135,21 +137,22 @@ const Projects = () => {
             </button>
 
             {/* Modal Content */}
-            <h3 className="text-2xl font-semibold text-white mb-4">
+            <h3 className="text-2xl font-semibold text-white mb-4 text-center">
               {selectedProject.title}
             </h3>
+
             <img
               src={selectedProject.image}
               alt={selectedProject.title}
-              className="w-full h-48 object-cover rounded-lg mb-4"
+              className="w-full h-48 md:h-56 object-cover rounded-lg mb-4"
             />
+
             {/* Render details with preserved line breaks */}
-            <p
-              className="text-gray-300 mb-4 whitespace-pre-wrap"
-              style={{ lineHeight: "1.6" }}
-            >
+            <p className="text-gray-300 mb-4 whitespace-pre-wrap leading-relaxed">
               {selectedProject.details}
             </p>
+
+            {/* Technologies */}
             <div className="flex flex-wrap gap-2 mb-6">
               {selectedProject.technologies.map((tech, techIndex) => (
                 <span
@@ -162,7 +165,7 @@ const Projects = () => {
             </div>
 
             {/* GitHub and Live Links */}
-            <div className="flex gap-4 mb-4">
+            <div className="flex flex-col md:flex-row gap-4 mb-4">
               <a
                 href={selectedProject.githubLink}
                 target="_blank"
