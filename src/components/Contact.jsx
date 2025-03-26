@@ -99,7 +99,7 @@ const Contact = () => {
             {/* Email Input */}
             <div>
               <label htmlFor="email" className="block text-gray-300 mb-2">
-                Galactic Email
+                Email
               </label>
               <input
                 type="email"
@@ -107,7 +107,7 @@ const Contact = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                placeholder="you@cosmos.com"
+                placeholder="mail@gmail.com"
                 className="w-full p-3 bg-gray-700 text-white rounded-lg border border-gray-600 focus:outline-none focus:border-cyan-400"
                 required
               />
@@ -116,14 +116,14 @@ const Contact = () => {
             {/* Message Input */}
             <div>
               <label htmlFor="message" className="block text-gray-300 mb-2">
-                Cosmic Message
+                Message
               </label>
               <textarea
                 id="message"
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                placeholder="Speak your mind..."
+                placeholder="Write a message..."
                 rows="4"
                 className="w-full p-3 bg-gray-700 text-white rounded-lg border border-gray-600 focus:outline-none focus:border-cyan-400 resize-none"
                 required
@@ -157,7 +157,7 @@ const Contact = () => {
         {/* Right: Contact Details (Interstellar Links) */}
         <div className="flex-1 bg-gray-800 rounded-2xl p-8">
           <h2 className="text-2xl font-semibold text-cyan-400 mb-6">
-            Interstellar Links
+            Connect With Me
           </h2>
           <div className="space-y-6 text-gray-300">
             {/* Email */}
@@ -182,7 +182,7 @@ const Contact = () => {
             <div className="flex items-center gap-3">
               <MdLocationOn className="text-cyan-400 text-2xl" />
               <div>
-                <p className="text-sm text-gray-400">Coordinates</p>
+                <p className="text-sm text-gray-400">Location</p>
                 <p>{CONTACT.address}</p>
               </div>
             </div>
@@ -190,7 +190,7 @@ const Contact = () => {
             {/* Social Links (Orbit Me) */}
             <div>
               <h3 className="text-lg font-semibold text-gray-300 mb-4">
-                Orbit Me
+                Social Links
               </h3>
               <div className="flex gap-4">
                 <motion.a
