@@ -57,7 +57,7 @@ const Technologies = () => {
       </h2>
 
       {/* Tech Grid */}
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 justify-center">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 justify-center px-14">
         {techStack.map((tech, index) => (
           <motion.div
             key={index}
