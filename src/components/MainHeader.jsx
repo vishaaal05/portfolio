@@ -46,7 +46,7 @@ export const MainHeader = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen flex flex-col md:flex-row justify-center xl:justify-between items-center py-16 md:py-20 px-10 xl:px-20 gap-x-10 xl:gap-x-16">
+    <div className="relative min-h-screen flex flex-col md:flex-row justify-center xl:justify-between items-center py-16 md:py-20 px-10 xl:px-32 2xl:px-56 gap-x-10 xl:gap-x-16">
       
       {/* Profile Image Section */}
       <motion.div
