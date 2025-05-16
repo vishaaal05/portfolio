@@ -16,6 +16,25 @@ export const PROJECTS = [
     liveLink: "https://suprnav.com/",
   },
   {
+    title: "Blogify - A Blog Application ",
+    description:
+      "I built Blogify, a full-stack blog application that allows users to read, write, and interact with blogs seamlessly. It offers a modern, performant, and scalable platform tailored for both readers and writers.",
+    image: "blogify.png",
+    technologies: ["React", "Tailwind CSS", "NodeJS", "PostgreSQL", "Neon.Tech"],
+
+    details: `🔹 **Key Features:**
+✅ Built with React for fast, component-based UI rendering.  
+✅ Sleek and responsive UI designed using Tailwind CSS.  
+✅ Smooth client-side navigation with optimized routes for better UX.  
+✅ PostgreSQL integration with Neon.tech for reliable and scalable data storage.  
+✅ Role-based access system (Readers & Authors) for controlled blog management.  
+✅ Performance-optimized backend with Node.js and efficient API structuring.  
+✅ Scalable architecture ready for real-world deployment and growth.
+`,
+    githubLink: "https://github.com/vishaaal05/blogify-frontend",
+    liveLink: "https://blogify-gules-omega.vercel.app",
+  },
+  {
     title: "Referral System Webpage 🚀",
     description:
       "I built a referral system webpage where users can refer their friends by entering their email addresses. The system then sends an automated email to the referred friend using NodeMailer.",
