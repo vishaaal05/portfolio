@@ -22,7 +22,7 @@ export const PROJECTS = [
     image: "blogify.png",
     technologies: ["React", "Tailwind CSS", "NodeJS", "PostgreSQL", "Neon.Tech"],
 
-    details: `🔹 **Key Features:**
+    details: `🔹 Key Features:
 ✅ Built with React for fast, component-based UI rendering.  
 ✅ Sleek and responsive UI designed using Tailwind CSS.  
 ✅ Smooth client-side navigation with optimized routes for better UX.  
