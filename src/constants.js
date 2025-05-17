@@ -34,6 +34,49 @@ export const PROJECTS = [
     githubLink: "https://github.com/vishaaal05/blogify-frontend",
     liveLink: "https://blogify-gules-omega.vercel.app",
   },
+  
+  {
+    title: "Simp - A Digital Wallet 🚀",
+    description:
+      "Developed this simple payment money transfer system, where a user can send money to their friends by searching them.",
+    image: "simp.png",
+    technologies: [
+     "React",
+      "Tailwind CSS",
+      "NodeJs",
+       "MongoDB",
+       "JWT auth",
+    ],
+    details: `🔹 Key Features:
+✅ Built a payment application with core transaction functionalities
+✅ Implemented secure JWT-based authentication for user signup and signin.
+✅ Designed a secure trans. system, proper validations to ensure safe transfers.
+✅ Developed a user search feature to discover and connect with other users.`,
+    githubLink: "https://github.com/vishaaal05/simp_digital-wallet",
+    liveLink: "https://simp-wallet.vercel.app/",
+  },
+  {
+    title: "Basic Blog (Serverless)  🚀",
+    description:
+      "I built this basic blog app where a user can create, update, delete and many more restful's to get upskill myself with the serverless.",
+    image: "medium.png",
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "MongoDB",
+       "Hono",
+       "TypeScript",
+       "Cloudflare Workers"
+
+    ],
+    details: `🔹 Key Features:
+✅ Developed a full-featured blog platform inspired by Medium
+✅ Implemented secure JWT-based authentication for user login and signup.
+✅ Added blog management features: create, read, update, and retrieve posts by ID.
+✅ Deployed the backend using the Hono library on Cloudflare Workers for scalable, serverless execution.`,
+    githubLink: "https://github.com/vishaaal05/medium-blog",
+    liveLink: "https://medium-blog-murex-nine.vercel.app/",
+  },
   {
     title: "Referral System Webpage 🚀",
     description:
@@ -69,6 +112,20 @@ export const PROJECTS = [
     githubLink: "https://github.com/vishaaal05/passop-password_manager",
     liveLink: "https://passop-passoword-manager.netlify.app/",
   },
+   {
+    title: "Netflix Clone 🎬",
+    description:
+      "A front-end Netflix clone built using only HTML and core CSS. This project replicates the basic look and feel of Netflix's homepage layout, perfect for practicing HTML and CSS fundamentals.",
+    image: "netflix.png", // Replace with actual image name if available
+    technologies: ["HTML", "CSS"],
+    details: `🔹 Key Features:
+✅ Fully responsive design using only HTML and core CSS.
+✅ Replicates Netflix homepage with banner, rows, and hover effects.
+✅ Great for understanding layout structures and media responsiveness.
+✅ Deployed on Vercel for fast and free hosting.`,
+    githubLink: "https://github.com/vishaaal05/Netflix/tree/main", // Add your GitHub link here if available
+    liveLink: "https://netflix-nine-rust.vercel.app/",
+  }
 ];
 
 export const EXPERIENCES = [
