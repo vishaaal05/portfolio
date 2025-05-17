@@ -16,7 +16,7 @@ export const PROJECTS = [
     liveLink: "https://suprnav.com/",
   },
   {
-    title: "Blogify - A Blog Application ",
+    title: "Blogify - A Blog Application ⚡",
     description:
       "I built Blogify, a full-stack blog application that allows users to read, write, and interact with blogs seamlessly. It offers a modern, performant, and scalable platform tailored for both readers and writers.",
     image: "blogify.png",
