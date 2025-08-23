@@ -1,6 +1,23 @@
 // src/constants.js
 export const PROJECTS = [
-  {
+
+{
+  title: "Pearl Creation📸",
+  description:
+    "I developed Pearl Creation, a modern photography portfolio website built to showcase creative work with speed, elegance, and seamless image optimization.",
+  image: "pearlcreation.png",
+  technologies: ["React", "Tailwind CSS", "Cloudinary"],
+  details: `🔹 Key Features:
+✅ Developed with React for fast, dynamic, and interactive rendering.  
+✅ Tailwind CSS & Magic UI for a clean, mobile-friendly, and visually appealing design.  
+✅ Integrated Cloudinary for on-the-fly image optimization and smooth delivery of high-quality photos.  
+✅ Focused on enhancing user navigation and boosting portfolio visibility with better performance.  
+✅ Lightweight, responsive, and crafted to deliver a professional photographer’s online presence.`,
+
+  githubLink: "https://github.com/vishaaal05/prakash-portfolio",
+  liveLink: "https://pearlcreation.in/",
+},
+    {
     title: "SuprNav⚡",
     description:
       "I built SuprNav, a powerful navigation solution designed to enhance user experience and drive higher conversions.",
@@ -129,6 +146,34 @@ export const PROJECTS = [
 ];
 
 export const EXPERIENCES = [
+   {
+  year: "May 2025 - Present",
+  role: "Associate Software Engineer",
+  company: "Insanger Technologies Pvt Ltd, Noida",
+  description:
+    "Working as a full-stack engineer with a strong focus on backend APIs, AWS server management, and cross-platform development using React and React Native.",
+
+  responsibilities: [
+    "Designed and developed scalable RESTful APIs using Node.js, Express, PostgreSQL, and Prisma.",
+    "Handled AWS deployments (EC2, S3, RDS) including server setup, monitoring, and optimization.",
+    "Built responsive and dynamic UIs with React.js and developed mobile applications using React Native.",
+    "Optimized database queries, schema design, and migrations for performance and scalability.",
+    "Integrated third-party APIs and implemented secure authentication and payment workflows.",
+    "Collaborated with teams to deliver reliable, high-performance web and mobile applications.",
+  ],
+
+  technologies: [
+    "Node.js",
+    "Express",
+    "PostgreSQL",
+    "Prisma",
+    "React.js",
+    "React Native",
+    "AWS (EC2, S3, RDS)",
+    "MongoDB",
+  ],
+},
+
   {
     year: "July 2024 - Oct 2024",
     role: "Full Stack Developer (MERN, Shopify)",
