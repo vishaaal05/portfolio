@@ -100,7 +100,11 @@ export const MainHeader = () => {
           variants={textVariants}
           className="leading-7 text-gray-200 max-w-lg text-sm md:text-base xl:text-lg"
         >
-          I am a passionate full-stack developer and freelancer, dedicated to building scalable and high-performance web applications. With expertise in front-end technologies like React and Next.js, and back-end solutions using Node.js, MySQL, PostgreSQL, and MongoDB, I craft tailored digital experiences for businesses and individuals.
+          I specialize in the MERN stack and React Native, with strong expertise in developing real-time systems, optimizing backend performance, and handling large-scale data and media workflows. My work involves designing robust APIs, building efficient database architectures (SQL & NoSQL), and ensuring seamless system performance under high traffic.
+
+Beyond development, I actively manage and own the AWS infrastructure for my organization. This includes server provisioning, RDS database management, and implementing scalable, fault-tolerant architectures using Load Balancing and Auto Scaling.
+
+I also work on DevOps practices, including containerization with Docker and setting up CI/CD pipelines to enable faster and more reliable deployments. My focus is on building systems that are not just functional, but highly scalable, resilient, and production-ready.
         </motion.p>
 
         {/* Download CV Button */}
