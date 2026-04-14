@@ -34,7 +34,7 @@ const buttonVariants = {
 };
 
 export const MainHeader = () => {
-  const roles = ["Software Engineer", "Full Stack Developer", "App Developer", "Full Stack Developer", "DevOps"];
+  const roles = ["Software Engineer", "Full Stack Developer", "App Developer", "DevOps", "A Freelancer"];
   const [roleIndex, setRoleIndex] = useState(0);
 
   // Auto-switch roles every 3 seconds
