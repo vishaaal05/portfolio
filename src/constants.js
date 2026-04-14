@@ -148,8 +148,8 @@ export const PROJECTS = [
 export const EXPERIENCES = [
    {
   year: "May 2025 - Present",
-  role: "Associate Software Engineer",
-  company: "Insanger Technologies Pvt Ltd, Noida",
+  role: "Software Engineer",
+  company: "Insanger Pvt Ltd, Noida",
   description:
     "Working as a full-stack engineer with a strong focus on backend APIs, AWS server management, and cross-platform development using React and React Native.",
 
