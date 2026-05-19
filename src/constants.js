@@ -1,23 +1,22 @@
 // src/constants.js
 export const PROJECTS = [
-
-{
-  title: "Pearl Creation📸",
-  description:
-    "I developed Pearl Creation, a modern photography portfolio website built to showcase creative work with speed, elegance, and seamless image optimization.",
-  image: "pearlcreation.png",
-  technologies: ["React", "Tailwind CSS", "Cloudinary"],
-  details: `🔹 Key Features:
+  {
+    title: "Pearl Creation📸",
+    description:
+      "I developed Pearl Creation, a modern photography portfolio website built to showcase creative work with speed, elegance, and seamless image optimization.",
+    image: "pearlcreation.png",
+    technologies: ["React", "Tailwind CSS", "Cloudinary"],
+    details: `🔹 Key Features:
 ✅ Developed with React for fast, dynamic, and interactive rendering.  
 ✅ Tailwind CSS & Magic UI for a clean, mobile-friendly, and visually appealing design.  
 ✅ Integrated Cloudinary for on-the-fly image optimization and smooth delivery of high-quality photos.  
 ✅ Focused on enhancing user navigation and boosting portfolio visibility with better performance.  
 ✅ Lightweight, responsive, and crafted to deliver a professional photographer’s online presence.`,
 
-  githubLink: "https://github.com/vishaaal05/prakash-portfolio",
-  liveLink: "https://pearlcreation.in/",
-},
-    {
+    githubLink: "https://github.com/vishaaal05/prakash-portfolio",
+    liveLink: "https://pearlcreation.in/",
+  },
+  {
     title: "SuprNav⚡",
     description:
       "I built SuprNav, a powerful navigation solution designed to enhance user experience and drive higher conversions.",
@@ -37,7 +36,13 @@ export const PROJECTS = [
     description:
       "I built Blogify, a full-stack blog application that allows users to read, write, and interact with blogs seamlessly. It offers a modern, performant, and scalable platform tailored for both readers and writers.",
     image: "blogify.png",
-    technologies: ["React", "Tailwind CSS", "NodeJS", "PostgreSQL", "Neon.Tech"],
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "NodeJS",
+      "PostgreSQL",
+      "Neon.Tech",
+    ],
 
     details: `🔹 Key Features:
 ✅ Built with React for fast, component-based UI rendering.  
@@ -51,19 +56,13 @@ export const PROJECTS = [
     githubLink: "https://github.com/vishaaal05/blogify-frontend",
     liveLink: "https://blogify-gules-omega.vercel.app",
   },
-  
+
   {
     title: "Simp - A Digital Wallet 🚀",
     description:
       "Developed this simple payment money transfer system, where a user can send money to their friends by searching them.",
     image: "simp.png",
-    technologies: [
-     "React",
-      "Tailwind CSS",
-      "NodeJs",
-       "MongoDB",
-       "JWT auth",
-    ],
+    technologies: ["React", "Tailwind CSS", "NodeJs", "MongoDB", "JWT auth"],
     details: `🔹 Key Features:
 ✅ Built a payment application with core transaction functionalities
 ✅ Implemented secure JWT-based authentication for user signup and signin.
@@ -81,10 +80,9 @@ export const PROJECTS = [
       "React",
       "Tailwind CSS",
       "MongoDB",
-       "Hono",
-       "TypeScript",
-       "Cloudflare Workers"
-
+      "Hono",
+      "TypeScript",
+      "Cloudflare Workers",
     ],
     details: `🔹 Key Features:
 ✅ Developed a full-featured blog platform inspired by Medium
@@ -129,7 +127,7 @@ export const PROJECTS = [
     githubLink: "https://github.com/vishaaal05/passop-password_manager",
     liveLink: "https://passop-passoword-manager.netlify.app/",
   },
-   {
+  {
     title: "Netflix Clone 🎬",
     description:
       "A front-end Netflix clone built using only HTML and core CSS. This project replicates the basic look and feel of Netflix's homepage layout, perfect for practicing HTML and CSS fundamentals.",
@@ -142,38 +140,45 @@ export const PROJECTS = [
 ✅ Deployed on Vercel for fast and free hosting.`,
     githubLink: "https://github.com/vishaaal05/Netflix/tree/main", // Add your GitHub link here if available
     liveLink: "https://netflix-nine-rust.vercel.app/",
-  }
+  },
 ];
 
 export const EXPERIENCES = [
-   {
-  year: "May 2025 - Present",
-  role: "Software Engineer",
-  company: "Insanger Pvt Ltd, Noida",
-  description:
-    "Working as a full-stack engineer with a strong focus on backend APIs, AWS server management, and cross-platform development using React and React Native.",
+  {
+    year: "May 2025 - Present",
+    role: "Software Engineer",
+    company: "Insanger Pvt Ltd, Noida",
+    description:
+      "Working on scalable web and mobile applications with a strong focus on backend systems, real-time infrastructure, AWS cloud management, and production-grade architecture.",
 
-  responsibilities: [
-    "Designed and developed scalable RESTful APIs using Node.js, Express, PostgreSQL, and Prisma.",
-    "Handled AWS deployments (EC2, S3, RDS) including server setup, monitoring, and optimization.",
-    "Built responsive and dynamic UIs with React.js and developed mobile applications using React Native.",
-    "Optimized database queries, schema design, and migrations for performance and scalability.",
-    "Integrated third-party APIs and implemented secure authentication and payment workflows.",
-    "Collaborated with teams to deliver reliable, high-performance web and mobile applications.",
-  ],
+    responsibilities: [
+      "Designed and developed production-grade RESTful APIs using Node.js, Express, TypeScript, PostgreSQL, Prisma, and MongoDB.",
+      "Built and optimized real-time features including chat systems, audio/video calling, live streaming, and RTC infrastructure.",
+      "Managed and scaled AWS infrastructure using EC2, RDS, S3, CloudFront, and CloudWatch.",
+      "Implemented Load Balancing, Auto Scaling, SSL setup, monitoring, and cloud cost optimization.",
+      "Worked on React.js and React Native applications with focus on performance and scalability.",
+      "Integrated payment gateways including PayU, ePay, UPI Gateway, and intent-based payment flows.",
+      "Handled Dockerized deployments, Nginx configuration, Redis caching, and CI/CD workflows.",
+      "Optimized database architecture, queries, and backend performance to support high-traffic systems with 1.5L+ users.",
+    ],
 
-  technologies: [
-    "Node.js",
-    "Express",
-    "PostgreSQL",
-    "Prisma",
-    "React.js",
-    "React Native",
-    "AWS (EC2, S3, RDS)",
-    "MongoDB",
-  ],
-},
-
+    technologies: [
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "MongoDB",
+      "Redis",
+      "React.js",
+      "React Native",
+      "AWS (EC2, RDS, S3, CloudFront, CloudWatch)",
+      "Docker",
+      "Kubernetes",
+      "Nginx",
+      "LiveKit",
+    ],
+  },
   {
     year: "July 2024 - Oct 2024",
     role: "Full Stack Developer (MERN, Shopify)",
@@ -201,26 +206,26 @@ export const EXPERIENCES = [
 ];
 
 export const EDUCATION = [
-    {
-      year: "2024 - 2026",
-      course: "Master of Computer Applications",
-      college: "ABES Engineering College",
-    },
-    {
-        year: "2020 - 2023",
-        course: "Bachelor of Science in Computer Science",
-        college: "University of Delhi",
-      },
-  ];
+  {
+    year: "2024 - 2026",
+    course: "Master of Computer Applications",
+    college: "ABES Engineering College",
+  },
+  {
+    year: "2020 - 2023",
+    course: "Bachelor of Science in Computer Science",
+    college: "University of Delhi",
+  },
+];
 
-  export const CONTACT = {
-    email: "vishalkgupta34@gmail.com",
-    phoneNo: "+91 8882804354",
-    address: "Ghaziabad, UP, India",
-    socialLinks: {
-      linkedin: "https://www.linkedin.com/in/vishaaal05/",
-      github: "https://github.com/vishaaal05",
-      instagram: "https://instagram.com/vishaaal05",
-      twitter: "https://x.com/Vishaaal05",
-    },
-  };
+export const CONTACT = {
+  email: "vishalkgupta34@gmail.com",
+  phoneNo: "+91 8882804354",
+  address: "Ghaziabad, UP, India",
+  socialLinks: {
+    linkedin: "https://www.linkedin.com/in/vishaaal05/",
+    github: "https://github.com/vishaaal05",
+    instagram: "https://instagram.com/vishaaal05",
+    twitter: "https://x.com/Vishaaal05",
+  },
+};
