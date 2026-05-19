@@ -100,11 +100,10 @@ export const MainHeader = () => {
           variants={textVariants}
           className="leading-7 text-gray-200 max-w-lg text-sm md:text-base xl:text-lg"
         >
-          I specialize in the MERN stack and React Native, with strong expertise in developing real-time systems, optimizing backend performance, and handling large-scale data and media workflows. My work involves designing robust APIs, building efficient database architectures (SQL & NoSQL), and ensuring seamless system performance under high traffic.
+I specialize in the MERN stack and React Native, with hands-on experience in building and scaling production-grade web and mobile applications. My expertise includes developing real-time systems such as chat, audio/video calling, live streaming, and RTC-based infrastructures using technologies like LiveKit. I have worked extensively on backend optimization, production-grade APIs, large-scale media handling, and designing efficient SQL & NoSQL database architectures capable of handling high traffic and 1.5L+ users reliably.
 
-Beyond development, I actively manage and own the AWS infrastructure for my organization. This includes server provisioning, RDS database management, and implementing scalable, fault-tolerant architectures using Load Balancing and Auto Scaling.
+Beyond application development, I actively manage and scale AWS infrastructure for my organization, including EC2, RDS, S3, CloudFront, and CloudWatch. I have experience implementing load balancing, auto scaling, SSL setup, monitoring, server optimization, and cloud cost optimization to ensure high availability and performance. I also work on DevOps practices using Docker, Kubernetes, Redis, Nginx, and CI/CD pipelines to build scalable, resilient, and fault-tolerant systems ready for production workloads.
 
-I also work on DevOps practices, including containerization with Docker and setting up CI/CD pipelines to enable faster and more reliable deployments. My focus is on building systems that are not just functional, but highly scalable, resilient, and production-ready.
         </motion.p>
 
         {/* Download CV Button */}
